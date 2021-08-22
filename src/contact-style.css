@@ -68,3 +68,21 @@
 	width: 100%;
 	margin-bottom: 10px;
 }
+
+#message{
+	width: 100%;
+	height: 100px;
+	padding: 3px;
+}
+
+label, textarea, input{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1em;
+}
+
+#submit-button{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	width: 100%;
+	height: 30px;
+	font-size: 1.5em;
+}

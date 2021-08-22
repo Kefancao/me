@@ -5,12 +5,10 @@ import Contact from "./contactInfo";
 
 
 function App() {
-  const [pos, setPos] = useState(window.pageYOffset); 
+  const [, setPos] = useState(window.pageYOffset); 
 
   useEffect(() => {
     const handleScroll = () => {
-      console.log(window.pageYOffset); 
-      console.log( window.innerHeight); 
       setPos(window.pageYOffset); 
     };
 

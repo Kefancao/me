@@ -10,6 +10,7 @@ export default function Contact() {
 
 	const handleName = (e)=> setName(e.target.value); 
 	const handleEmail = (e)=> setEmail(e.target.value); 
+	const handleMessage = (e)=> setMessage(e.target.value); 
 
 	return (
 		<div className="contact">
@@ -29,9 +30,9 @@ export default function Contact() {
 
 						<div id="message-area">
 							<label for="message">Message: </label>
-							<textarea onChange={e => handleName(e)} value={message} placeholder="Enter a message"></textarea>
+							<textarea id ="message" onChange={e => handleMessage(e)} value={message} placeholder="Enter a message"></textarea>
 						</div>
-						<button>Submit</button>
+						<button id="submit-button">Submit</button>
 					</div>
 				</div>
 			}
