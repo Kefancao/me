@@ -4,7 +4,7 @@ import GitHubIcon from './github.png'
 import LinkedInIcon from './linkedin.png'
 import SendLogo from './send.png'
 
-export default function Card1() {
+export default function Card1(props) {
 
 	const card = useRef(); 
 	const flip = () => {
@@ -17,7 +17,7 @@ export default function Card1() {
 
 	return (
 		<div className="scene">
-			<div ref={card} className="card" onClick={flip} onScroll={e => scroll(e)}>
+			<div style = {{opacity : props.opac}} ref={card} className="card" onClick={flip} onScroll={e => scroll(e)}>
 				<div className="face front">
 					<h3 className="name">First Last</h3>
 					<h3 className="career">Software Developer</h3>
@@ -38,6 +38,7 @@ export default function Card1() {
 				</div>
 				<div className="face back">Hi</div>
 			</div>
+			<div className="ref">HI</div>
 		</div>
 	)
 }
