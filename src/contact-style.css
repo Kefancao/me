@@ -1,0 +1,70 @@
+
+#send-icon{
+	border-radius: 50%;
+	background: white;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	top: 100%;
+	left: 0%;
+	transform: translate(80%, -200%);
+	cursor: pointer;
+}
+
+.contact-box{
+	position: fixed;
+	border-radius: 10px;
+	background: white;
+	width: 350px;
+	height: 400px;
+	top: 100%;
+	left: 1%;
+	transform: translateY(-108%);
+}
+
+.contact-box p{
+	margin: 3px;
+}
+
+#exit-contact{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid black;
+	left: 100%;
+	top: 2%;
+	transform: translateX(-120%);
+	background: grey;
+	cursor: pointer;
+}
+
+
+
+#exit-contact h1{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: red;
+
+}
+
+#contact-wrap{
+	margin: 20px 30px 0px 30px;
+}
+
+#contact-wrap p{
+	margin-bottom: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#name-form{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#email-form{
+	width: 100%;
+	margin-bottom: 10px;
+}
