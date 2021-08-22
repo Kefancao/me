@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
 import Card1 from "./Card1";
+import Contact from "./contactInfo";
+
 
 function App() {
   const [pos, setPos] = useState(window.pageYOffset); 
@@ -18,6 +20,7 @@ function App() {
   }, []);
 
   return (
+    <>
     <div className="outer-container">
       <Card1 opac={(Math.cos((window.pageYOffset* 2 * Math.PI)/ window.innerHeight) + 0.75)} />
       <Card1 opac={(Math.cos((window.pageYOffset* 2 * Math.PI)/ window.innerHeight) + 0.75)} />
@@ -25,6 +28,8 @@ function App() {
       <Card1 opac={(Math.cos((window.pageYOffset* 2 * Math.PI)/ window.innerHeight) + 0.75)} />
       <Card1 opac={(Math.cos((window.pageYOffset* 2 * Math.PI)/ window.innerHeight) + 0.75)} />
     </div>
+    <Contact /> 
+    </>
   );
 }
 
