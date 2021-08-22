@@ -6,6 +6,9 @@
 	font-family: 'Courier New', Courier, monospace;
 }
 
+.outer-container{
+	overflow-y: scroll;
+}
 
 .scene {
 	display: flex;
