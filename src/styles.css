@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
 *{
 	margin: 0;
@@ -72,6 +73,23 @@ body{
 	transform: rotateY(-180deg);
 }
 
+.content-container h3{
+	font-family: 'Arvo';
+	margin-bottom: 20px;
+}
+
+.content-container p{
+	font-family: 'Arvo';
+}
+
+.content-container{
+	padding: 40px;
+}
+
+/* #waterloo-icon{
+	height: 40px;
+	transform: translate(-30%, 30%);
+} */
 .name{
 	width: fit-content;
 	position: relative;
