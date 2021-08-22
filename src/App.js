@@ -6,12 +6,17 @@ function App() {
   const [idx, setIdx] = useState(1); 
   
   const iterate = () => {
-    setIdx(old => old + 1)
-  }
+    console.log('scrolled')
+  } 
 
   return (
-    <div className="scene" onScroll={iterate}>
-      <Card1 num = {idx}/>
+    <div className="outer-container" onScroll={iterate}>
+        <Card1 num = {idx}/> 
+        <Card1 num = {idx}/> 
+        <Card1 num = {idx}/> 
+        <Card1 num = {idx}/> 
+        <Card1 num = {idx}/> 
+        <Card1 num = {idx}/> 
     </div>); 
 }
 
