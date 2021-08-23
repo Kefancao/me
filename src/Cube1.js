@@ -22,7 +22,7 @@ export default function Cube1(props) {
 			<div className="content-wrap">
 				<div className="cube-container">
 					<div ref={cube} className="cube">
-						<div className="cube__face cube__face--front">front</div>
+						<div className="cube__face cube__face--front">Quick Chat</div>
 						<div className="cube__face cube__face--back">back</div>
 						<div className="cube__face cube__face--right">right</div>
 						<div className="cube__face cube__face--left">left</div>
