@@ -2,7 +2,6 @@ import React, {useRef} from 'react'
 import CV from './cv.png'
 import GitHubIcon from './github.png'
 import LinkedInIcon from './linkedin.png'
-import WaterlooIcon from './waterloo.svg'
 
 export default function Card1(props) {
 

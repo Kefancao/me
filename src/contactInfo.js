@@ -3,14 +3,14 @@ import SendLogo from './send.png'
 import './contact-style.css'
 
 export default function Contact() {
-	const [clicked, setClicked] = useState(false); 
+	const [clicked, setClicked] = useState(false);  
 	const [name, setName] = useState(''); 
 	const [email, setEmail] = useState('')
 	const [message, setMessage] = useState('')
 
-	const handleName = (e)=> setName(e.target.value); 
-	const handleEmail = (e)=> setEmail(e.target.value); 
-	const handleMessage = (e)=> setMessage(e.target.value); 
+	const handleName = (e) => setName(e.target.value); 
+	const handleEmail = (e) => setEmail(e.target.value); 
+	const handleMessage = (e) => setMessage(e.target.value); 
 
 	return (
 		<div className="contact">
