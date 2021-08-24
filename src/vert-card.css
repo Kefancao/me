@@ -20,8 +20,24 @@
 	transform-style: preserve-3d;
 	cursor: pointer;
 	position: relative;
-  }
+}
+
+.vert-card.init{
+	animation: float 1s ease-in infinite alternate;
+}
 
 .vert-card.is-flipped {
 	transform: rotateY(-180deg);
 }
+
+@keyframes float {
+	0%{
+		transform: translateY(2%);
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	}
+	100%{
+		transform: translateY(-2%);
+		box-shadow: 0 15px 35px rgba(255, 255, 255, 0.5);
+	}
+}
+
