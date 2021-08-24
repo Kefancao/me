@@ -65,8 +65,9 @@ body{
 	/* text-align: center; */
 	font-weight: bold;
 	font-size: 16px;
+	transform-style: preserve-3d;
 	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+	/* backface-visibility: hidden; */
 }
 
 .back{
