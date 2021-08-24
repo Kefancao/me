@@ -49,13 +49,15 @@ export default function Card2(props) {
 						<div className="content-container">
 							<h3>List of skills I'm equipped with</h3>
 							<ul>
-								<li>C++</li>
+								<li>Bash</li>
 								<li>C</li>
+								<li>C++</li>
 								<li>Javascript</li>
 								<li>Java</li>
 								<li>Python</li>
 								<li>R</li>
 								<li>React</li>
+								<li>SQL</li>
 								<li>TypeScript</li>
 								<li>HTML/CSS</li>
 							</ul>
@@ -69,6 +71,16 @@ export default function Card2(props) {
 						<h3 className="name">Education</h3> 
 					</div>
 					<div className="face back"> 
+						<div className="content-container">
+						<ul>
+							<li>University of Waterloo 2020-2025</li><br></br>
+							<ul>
+								<li>CS136 - Functional Programming (97%)</li>
+								<li>CS146 - Advanced Algorithmic Design (100%)</li>
+								<li>CS246 - Object Oriented Programming (100%)</li>
+							</ul>
+						</ul>
+						</div>
 					</div>
 				</div>  
 			</div>
