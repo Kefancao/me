@@ -24,9 +24,7 @@ function App() {
     <div className="outer-container">
       <Card1 opac={(Math.cos((window.pageYOffset* 2 * Math.PI)/ window.innerHeight) + 0.70)} />
       <Cube1 opac={(Math.cos((window.pageYOffset* 2 * Math.PI)/ window.innerHeight) + 0.70)} />
-      <Card2 opac={(Math.cos((window.pageYOffset* 2 * Math.PI)/ window.innerHeight) + 0.70)} />
-      <Card1 opac={(Math.cos((window.pageYOffset* 2 * Math.PI)/ window.innerHeight) + 0.70)} />
-      <Card1 opac={(Math.cos((window.pageYOffset* 2 * Math.PI)/ window.innerHeight) + 0.70)} />
+      <Card2 opac={(Math.cos((window.pageYOffset* 2 * Math.PI)/ window.innerHeight) + 0.70)} /> 
     </div>
     <Contact /> 
     </>

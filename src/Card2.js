@@ -66,7 +66,7 @@ export default function Card2(props) {
 				</div>  
 			</div>
 			<div className="vert-scene">
-				<div ref ={card2} style = {{opacity : props.opac}} className="vert-card init" onClick={()=>flip(2)}>
+				<div ref ={card2} style = {{opacity : props.opac - 0.3}} className="vert-card init" onClick={()=>flip(2)}>
 					<div className="face front">
 						<h3 className="name">Education</h3> 
 					</div>
@@ -85,7 +85,7 @@ export default function Card2(props) {
 				</div>  
 			</div>
 			<div className="vert-scene">
-				<div ref ={card3} style = {{opacity : props.opac}} className="vert-card init" onClick={()=>flip(3)}>
+				<div ref ={card3} style = {{opacity : props.opac - 0.6}} className="vert-card init" onClick={()=>flip(3)}>
 					<div className="face front">
 						<h3 className="name">Hobbies</h3> 
 					</div>
