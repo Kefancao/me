@@ -78,8 +78,12 @@ body{
 	margin-bottom: 20px;
 }
 
-.content-container p{
+.content-container p, ul{
 	font-family: 'Arvo';
+}
+
+.content-container ul{
+	margin-left: 20px;
 }
 
 .content-container{
