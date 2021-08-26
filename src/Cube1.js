@@ -2,6 +2,7 @@ import React, {useState, useRef} from 'react'
 import './cube.css'
 import LeftNav from './leftArrow.svg'
 import RightNav from './rightArrow.svg'
+import QuickChat from './quickChat.png'
 
 function Description(props){
 
@@ -15,6 +16,15 @@ function Description(props){
 					The app allows the user to enter a room key to join a room. 
 					The user can choose to join anonymously or sign in via their Google Account.
 				</p>
+				<br></br>
+				<p>
+					When signed in, the user may be able to create a room and share it with their 
+					friends; however, this feature is not possible for anonymous users to prevent 
+					them from creating an excessive amount of rooms. Texts sent and received have 
+					different styles applied to them and the nature of it resembles the styles of 
+					imessage to provide the user a familiar experience. 
+				</p>
+				<img src={QuickChat} alt="quickChatSS"></img>
 			</div>
 		); 
 		case 3: 
@@ -35,6 +45,8 @@ function Description(props){
 				<p>
 					TypeWriterX is a web app that allows users to test their typing speed. Their typing speed are
 					displayed in WPM (words per minute). It is created using React and Firebase (to store user history).
+					The web app supports dynamic styling and checks to see if the character entered by the user is correct 
+					for each entry and applies the proper styles to it. 
 				</p>
 			</div>
 		); 
