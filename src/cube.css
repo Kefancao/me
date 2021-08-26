@@ -9,14 +9,15 @@
 
 .description{
 	position: relative;
-	height: 100%;
+	height: 80%;
 	width: 100%;
 	padding-left: 10%;
 	padding-right: 10%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	overflow: -moz-scrollbars-vertical; 
+	overflow-y: scroll;
 }
 .content-wrap{
 	padding: 10%;
@@ -116,4 +117,8 @@ label { margin-right: 10px; }
 
 #left-cube-arrow :hover{
 	cursor: pointer;
+}
+ 
+.description img{
+	width: 70%;
 }
