@@ -23,6 +23,15 @@
 	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 }
 
+.end-contact{
+	width: 80%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
 .contact-box p{
 	margin: 3px;
 }
