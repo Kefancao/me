@@ -37,18 +37,15 @@
 	position: relative;
 	width: 30px;
 	height: 30px;
-	border-radius: 50%;
-	border: 1px solid black;
-	left: 100%;
-	top: 2%;
+	left: 99%;
+	top: 3%;
 	transform: translateX(-120%);
-	background: grey;
 	cursor: pointer;
 }
 
 
 
-#exit-contact h1{
+#exit-contact #wrap{
 	position: absolute;
 	left: 50%;
 	top: 50%;

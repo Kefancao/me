@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import SendLogo from './send.png'
 import './contact-style.css'
 import emailjs from 'emailjs-com';
+import CloseButton from './closeButton';
 import ContactButton from './contactButton';
 
 function ContactForm(props){ 
@@ -26,7 +26,11 @@ function ContactForm(props){
 		{!submit ? 
 
 		<div className="contact-box">
-			<div id='exit-contact' onClick = {()=> {props.setClicked(old => !old)}}><h1>x</h1></div>
+			<div id='exit-contact'>
+				<div id="wrap">
+					<CloseButton setClicked={props.setClicked}/> 
+				</div>
+			</div>
 			<div id="contact-wrap">
 				<p>Thank you for visiting this website. If you'd like to get in touch, please fill in the form below!</p>
 				<div id="name-form">
