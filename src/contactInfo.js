@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import SendLogo from './send.png'
 import './contact-style.css'
 import emailjs from 'emailjs-com';
+import ContactButton from './contactButton';
 
 function ContactForm(props){ 
 	const [name, setName] = useState(''); 
@@ -59,7 +60,7 @@ export default function Contact() {
 	const [clicked, setClicked] = useState(false); 
 	return (
 		<div className="contact">
-			{!clicked ? <img onClick = {()=> {setClicked(old => !old)}} src={SendLogo} id = "send-icon" alt="Send"></img> : 
+			{!clicked ? <ContactButton setClicked={setClicked}/> : 
 				<ContactForm setClicked={setClicked} /> 
 			}
 		</div>
