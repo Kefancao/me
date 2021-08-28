@@ -4,6 +4,10 @@ import LeftNav from './leftArrow.svg'
 import RightNav from './rightArrow.svg'
 import QuickChatWelcome from './quickChatIntro.png'
 import QuickChat from './quickChat.png'
+import TypingMid from './typingMid.png'
+import TypingIntro from './typingIntro.png'
+import GUI from './GUI.png'
+import TextGUI from './textGUI.png'
 
 function Description(props){
 
@@ -58,6 +62,14 @@ function Description(props){
 					The web app supports dynamic styling and checks to see if the character entered by the user is correct 
 					for each entry and applies the proper styles to it. 
 				</p>
+				<p>
+					In general, there are four styles to the characters, red for incorrect, green for correct, yellow for extra 
+					characters, and white for upcoming characters. Words are automatically scrolled as the user types and 
+					formatted according to user input. Below are some screen shots of what that looks like. Trust me, 
+					the typing is purely a demo, I am far more accurate in practice! Scroll down!
+				</p>
+				<img src={TypingIntro} alt="TypingTest"></img>
+				<img src={TypingMid} alt="TypingTest"></img>
 			</div>
 		); 
 		case 5:
@@ -85,6 +97,13 @@ function Description(props){
 					and design patterns including the factory pattern, the observer pattern, and the controller pattern. The game supports both a text-only mode or
 					a textGUI mode to be specified at run time. 
 				</p>
+				<p>
+					The textGUI is made using the ncurses library; while the GUI is made using the X11 graphics library. 
+					The game also supports a text only mode which is playable on the command-line. See screenshots below 
+					for how the ncurses and GUI versions look like. 
+				</p>
+				<img src={TextGUI} alt="Tetris textGUI"></img>
+				<img src={GUI} alt="Tetris textGUI"></img>
 			</div>); 
 		default: 
 			return <></>; 
