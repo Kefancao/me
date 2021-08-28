@@ -2,6 +2,7 @@ import React, {useState, useRef} from 'react'
 import './cube.css'
 import LeftNav from './leftArrow.svg'
 import RightNav from './rightArrow.svg'
+import QuickChatWelcome from './quickChatIntro.png'
 import QuickChat from './quickChat.png'
 
 function Description(props){
@@ -24,6 +25,8 @@ function Description(props){
 					different styles applied to them and the nature of it resembles the styles of 
 					imessage to provide the user a familiar experience. 
 				</p>
+				<img src={QuickChatWelcome} alt="quickChatSSWelcome"></img>
+				<br></br>
 				<img src={QuickChat} alt="quickChatSS"></img>
 			</div>
 		); 
@@ -35,6 +38,13 @@ function Description(props){
 					The website that you're looking at is kefancao.com :) It's created utilizing 
 					3D transform techniques of css in combination with React. The 3D cube transformations 
 					applies concepts from linear algebra and trignometry. 
+				</p>
+				<br></br>
+				<p>
+					The moving background made with a repeating linear gradient and uses css to transition 
+					from left of the gradient to the right of the gradient, creating an animated effect. 
+					Additionally, the website employs the trendy glass morphism effect with the business cards, 
+					see through but does not obstruct the font. The colors are carefully chosen for this reason. 
 				</p>
 			</div>
 		); 
