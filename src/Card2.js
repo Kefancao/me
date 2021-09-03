@@ -56,7 +56,9 @@ export default function Card2(props) {
 								<li>Java</li>
 								<li>Python</li>
 								<li>R</li>
+								<li>MongoDB</li>
 								<li>React</li>
+								<li>Node.js</li>
 								<li>SQL</li>
 								<li>TypeScript</li>
 								<li>HTML/CSS</li>
@@ -87,9 +89,14 @@ export default function Card2(props) {
 			<div className="vert-scene">
 				<div ref ={card3} style = {{opacity : props.opac - 0.6}} className="vert-card init" onClick={()=>flip(3)}>
 					<div className="face front">
-						<h3 className="name">Hobbies</h3> 
+						<h3 className="name">Experience</h3> 
 					</div>
 					<div className="face back"> 
+						<ul>System Integration Coordinator</ul>
+						<ul> 
+							<li>Strauss Event/Association Management</li>
+							<li>Outstanding co-op rating, (best possible)</li>
+						</ul>
 					</div>
 				</div>  
 			</div>
