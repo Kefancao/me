@@ -23,7 +23,7 @@ export default function Card1(props) {
 					<div className="external-links">
 						<a href="https://github.com/Kefancao" target="_blank" rel="noreferrer"><img src={GitHubIcon} alt="GitHub"></img></a>
 						<a href="https://www.linkedin.com/in/kefan-cao-2801bb165/" target="_blank" rel="noreferrer"><img src={LinkedInIcon} alt="LinkedIn"></img></a>
-						<a href="google.ca" target="_blank" rel="noreferrer"><img src={CV} alt="Resume"></img></a>
+						<a href="https://kefancao.github.io/KefanCao/mainResume.pdf" target="_blank" rel="noreferrer"><img src={CV} alt="Resume"></img></a>
 					</div> 
 					<div className="next">
 						<h1>&gt;</h1>
