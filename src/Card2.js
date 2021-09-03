@@ -92,11 +92,13 @@ export default function Card2(props) {
 						<h3 className="name">Experience</h3> 
 					</div>
 					<div className="face back"> 
+					<div className="content-container">
 						<ul>System Integration Coordinator</ul>
 						<ul> 
 							<li>Strauss Event/Association Management</li>
 							<li>Outstanding co-op rating, (best possible)</li>
 						</ul>
+					</div>
 					</div>
 				</div>  
 			</div>
